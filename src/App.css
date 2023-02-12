@@ -1,0 +1,335 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.money-transfer-text {
+  font-weight: 500;
+  font-size: 1em;
+  margin: 10px 0px 0px 20px;
+}
+.promo {
+  background-color: #4f83dc;
+  padding: 10px;
+  width: 26.5%;
+  text-align: center;
+  border-radius: 12px;
+}
+.pin {
+  font-size: 2.5em;
+}
+.numpad {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #30308e;
+}
+.numKey {
+  width: 33.3%;
+  float: left;
+  background-color: #f0f2f3;
+  bottom: 0;
+  height: 70px;
+  padding-top: 30px;
+}
+.numlabel {
+  padding: 65px;
+  font-size: 1.2em;
+}
+.pin-button {
+  width: 33.3%;
+  padding: 65px;
+  font-size: 1.2em !important;
+  background-color: #f0f2f3 !important;
+  color: #30308e !important;
+  height: 70px;
+  padding-top: 30px;
+}
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+  color: #30308e;
+  font-weight: 500;
+  padding: "10px 0px 10px 0px";
+}
+.main {
+  background-color: #ece8f2;
+  height: 100%;
+}
+.mt-card {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 12px;
+}
+.mt-card-content {
+  display: flex;
+  justify-content: flex-start;
+}
+.mt-link {
+  width: 25%;
+  text-decoration: none;
+}
+.mt-icon {
+  color: white !important;
+  background-color: #6739b7 !important;
+  border-radius: 15px !important;
+  margin-left: 20px !important;
+  font-size: 1.1em !important;
+}
+.mt-icon-text {
+  font-size: 0.9em;
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.mt-upi {
+  background-color: #f0ecf7;
+  padding: 2px;
+}
+.mt-upi-label {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.mt-upi-email {
+  font-size: 0.9em;
+}
+.mt-upi-icon {
+  margin-left: 38% !important;
+}
+.promo-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px 5px 5px;
+}
+.promo-icon {
+  color: white !important;
+  border-radius: 15px;
+  margin-left: 0px;
+}
+.promo-text {
+  font-size: 0.7em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.promo-inner-icon {
+  font-size: 1.2em;
+}
+.recharge-main {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 12px;
+  padding: 5px 0px 15px 0px;
+}
+.rc-text {
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin-right: 15px;
+  border-color: #ece8f2;
+  border-radius: 12px;
+  font-size: 0.7em;
+}
+.rc-card-content {
+  width: 25%;
+  float: left;
+  margin-top: 5px;
+}
+.rc-icon {
+  color: #6739b7 !important;
+  border-radius: 15px !important;
+  margin-left: 20px !important;
+}
+.rc-inner-icon {
+  font-size: 1.1em;
+}
+.rc-label {
+  font-size: 0.9em;
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.accounts-main {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 12px;
+}
+.accounts-outer {
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  margin-top: 10px;
+}
+.accounts-icon {
+  width: 10%;
+  float: left;
+}
+.accounts-image {
+  height: 30px;
+}
+.accounts-text {
+  width: 60%;
+  float: left;
+  padding-left: 10%;
+  padding-top: 8px;
+  color: black;
+}
+.accounts-arrow {
+  width: 20%;
+  float: right;
+  padding-top: 8px;
+  color: black;
+}
+.balance-main {
+  margin-top: 30%;
+  text-align: center;
+}
+.balance-icon-section {
+  text-align: center;
+}
+.balance-icon {
+  color: #4dc04d;
+  font-size: 9em !important;
+}
+.balance-text {
+  width: 80%;
+  padding-left: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+.balance-label {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.bank-logo-outer {
+  width: 55%;
+  margin: auto;
+  margin-top: 30px;
+}
+.bank-logo-inner {
+  width: 10%;
+  float: left;
+  margin-left: 10%;
+}
+.bank-name {
+  width: 80%;
+  float: left;
+}
+.bank-amount {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.balance-carousel {
+  width: 100%;
+  margin-top: 15px;
+}
+.balance-bottom {
+  width: 96%;
+  margin-top: 2%;
+  padding: 10px 0px 10px 0px;
+  height: 20px;
+  color: #30308e;
+  font-weight: 600;
+}
+.balance-loading {
+  margin: auto;
+  width: fit-content;
+  margin-top: 45%;
+}
+.balance-progress {
+  width: 120px !important;
+  height: 120px !important;
+  color: #e57373 !important;
+  margin-left: 22% !important;
+}
+.balance-loading-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.pin-icon-outer {
+  padding: 3px;
+  background-color: #30308e;
+  margin-top: 20px;
+}
+.pin-icon {
+  padding-left: 90%;
+  color: white;
+}
+.pin-enter {
+  margin-top: 30%;
+  margin-left: 35%;
+}
+.pin-label {
+  float: left;
+}
+.pin-eye-icon {
+  padding-left: 10px;
+  float: left;
+}
+.pin-textarea {
+  width: 30%;
+  margin-left: 40%;
+  padding-top: 20px;
+}
+.pin-delete-icon {
+  padding-left: 5px;
+  margin-top: -20px;
+  width: 33.3%;
+}
+.pin-validate {
+  padding-left: 5px;
+  margin-top: -20px;
+  width: 33.3%;
+}
+.pin-submit {
+  color: #30308e;
+  font-size: 2.5em !important;
+}

@@ -1,0 +1,21 @@
+{
+  "short_name": "PhonePe",
+  "name": "PhonePe",
+  "icons": [
+    {
+      "src": "phonepe.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "phonepe-big.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
