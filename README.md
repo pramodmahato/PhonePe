@@ -7,7 +7,7 @@
  
 ## Demo
 
-DEMO Link: [phonepe-three.vercel.app](https://phonepe-three.vercel.app/)
+DEMO Link: [p-pay.vercel.app](https://p-pay.vercel.app/)
 
 <br>
 <img src="https://raw.githubusercontent.com/pramodmahato/PhonePe/main/public/phonepe-demo.gif" width="200"/>
