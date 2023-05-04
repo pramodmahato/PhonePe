@@ -34,7 +34,7 @@ function ShowBalance() {
                                 height="15px"
                             ></img>
                         </div>
-                        <div className='bank-name'>State Bank Of India - 8345</div>
+                        <div className='bank-name'>State Bank Of India - 8607</div>
                         <div className='bank-amount'>
                             ₹ 3,22,284
                         </div>

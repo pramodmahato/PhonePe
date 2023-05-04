@@ -6,7 +6,7 @@ function BankAccounts() {
   const banks = [
     {
       icon: "https://upload.wikimedia.org/wikipedia/commons/c/cc/SBI-logo.svg",
-      text: "State Bank Of India - 8345",
+      text: "State Bank Of India - 8607",
       id: "1",
       link: "/",
     },
