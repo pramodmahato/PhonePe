@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Page />,
+    element: <App />,
   },
   {
     path: "/pin",
