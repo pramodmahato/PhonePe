@@ -7,7 +7,7 @@ import Accounts from './components/Accounts';
 import UpiPin from './components/UpiPin';
 import ShowBalance from './components/ShowBalance';
 import * as serviceWorker from './serviceWorker';
-
+import Page from './components/Ignore';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <App />,
+    element: <Page />,
   },
   {
     path: "/pin",

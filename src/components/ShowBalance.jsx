@@ -36,7 +36,7 @@ function ShowBalance() {
                         </div>
                         <div className='bank-name'>Citibank -1809</div>
                         <div className='bank-amount'>
-                            ₹ 1,23,456
+                            ₹ 3,23,456
                         </div>
                     </div>
                 </section>
