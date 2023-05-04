@@ -30,11 +30,11 @@ function ShowBalance() {
                     </label>
                     <div className='bank-logo-outer'>
                         <div className='bank-logo-inner'>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Citi.svg" alt="Citi"
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/SBI-logo.svg" alt="Citi"
                                 height="15px"
                             ></img>
                         </div>
-                        <div className='bank-name'>Citibank -1809</div>
+                        <div className='bank-name'>State Bank Of India - 8345</div>
                         <div className='bank-amount'>
                             ₹ 3,22,284
                         </div>
