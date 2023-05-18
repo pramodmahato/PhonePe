@@ -36,7 +36,7 @@ function ShowBalance() {
                         </div>
                         <div className='bank-name'>State Bank Of India - 8607</div>
                         <div className='bank-amount'>
-                            ₹ 3,22,284
+                            ₹ 13,22,284
                         </div>
                     </div>
                 </section>
